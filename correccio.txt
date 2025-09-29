@@ -1,0 +1,36 @@
+Salomé:
+
+Exercici 1: 0,75/2
+(a) 0,75/1
+T'has d'acostumar a assignar a variables els valors que t'interessa guardar. Per exemple, si calcules el cost final, llavors està bé crear una variable que es digui cost_final on estigui aquesta informació:
+  cost_final = cost_entrada*num_entrades
+
+(b) 0/1
+
+Exercici 2: 1/1.5
+Has escrit bé les fòrmules, però no has utiltizat bé les variables. Fixa't:
+  perpoblacio= 100
+  infectats_inicials=10
+  taxa_contagi=0.01
+  dies=5
+  10+(100-10)*(1-(1-0.01)**5)
+
+La gràcia seria que a la fórmula final, usessis les pròpies variables que has definit anteriorment:
+  perpoblacio= 100
+  infectats_inicials=10
+  taxa_contagi=0.01
+  dies=5
+  infectats_inicials+(poblacio-infectats_inicials)*(1-(1-taxa_contagi)**dies)
+
+D'aquesta manera, canviant els valors de les variables, ja s'actualitza la fórmula.
+  
+Exercici 3: 0/1.5
+Només has importat el math i escrit math.pi
+  
+Exercici 4: 4/4
+
+
+Github: 1/1
+Jupyter: 1/1
+
+Nota final: 7.75/11 --> 7.04
